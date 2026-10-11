@@ -2,7 +2,7 @@
 
 > **Curso:** 0268 – Desarrollo de Aplicaciones Web II · **Evaluación:** Laboratorio T2 (Fila B)
 > **Profesor:** Luis Angel Salvatierra Aquino · **Semestre:** 2026-23 · **Ciclo:** Sexto
-> **Grupo:** 10 · **Integrantes:** _(completar)_
+> **Grupo:** 10 · **Integrante:** Luis Fernando Fernandez Livaque
 
 Plataforma de matrícula universitaria migrada de un monolito a una arquitectura de microservicios. Los clientes (web y móvil) solo hablan con el **API Gateway**, que ubica los servicios dinámicamente a través de **Eureka**. La configuración de cada sede se centraliza en un **Config Server nativo** con recarga en caliente vía **Actuator**.
 
