@@ -503,4 +503,4 @@ pe.edu.cibertec.matricula            (o .curso)
 - Los archivos de configuración se crean como `.yml` porque su contenido es YAML.
 - La persistencia es en memoria. El `datasource.url` solo se expone como dato de configuración.
 - `validar-y-confirmar` solo valida y actualiza el estado; no descuenta vacantes, porque el enunciado no lo pide.
-- Aunque la rúbrica de la P2 menciona GitHub, el enunciado exige el modo **native** (sistema de archivos local), que es el que se implementa.
+- El enunciado exige el modo **native** (sistema de archivos local), que es el perfil por defecto. Como la rúbrica de la P2 menciona GitHub, el Config Server incluye además un perfil opcional `git` que lee los mismos archivos desde el repositorio `config-server-grupo10` (ver su README).
